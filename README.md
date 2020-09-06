@@ -17,8 +17,6 @@
 - react-router-dom
 - react-icons
 
-### API Used
-
 ### Deploy
 
 **[Live Site](http://ultra-products.surge.sh/)**
@@ -43,7 +41,7 @@
 
 ### Directory Structure
 
-- `[filename].elements.js` : styled for component
+**`[filename].elements.js` : styled for component**
 
 ```
 .
