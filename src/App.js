@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import GlobalStyle from "./globalStyles";
 
 import { NotFound, Spinner } from "./components/UI/";
@@ -18,6 +18,7 @@ function App() {
 					<Route path="/" exact component={Home} />
 					<Route component={NotFound} />
 				</Switch>
+				<Footer />
 			</Router>
 		</Suspense>
 	);
