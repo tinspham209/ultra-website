@@ -1,14 +1,25 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { Navbar } from "./components";
 import GlobalStyle from "./globalStyles";
+
+import { NotFound, Spinner } from "./components/UI/";
+
+const Home = React.lazy(() => import("./pages/HomePage/Home"));
+
 function App() {
 	return (
-		<Router>
-			<GlobalStyle />
-			<Navbar />
-		</Router>
+		<Suspense fallback={<Spinner />}>
+			<Router>
+				<GlobalStyle />
+				<Navbar />
+				<Switch>
+					<Route path="/" exact component={Home} />
+					<Route component={NotFound} />
+				</Switch>
+			</Router>
+		</Suspense>
 	);
 }
 
