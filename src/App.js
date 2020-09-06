@@ -5,6 +5,7 @@ import { Navbar, Footer } from "./components";
 import GlobalStyle from "./globalStyles";
 
 import { NotFound, Spinner } from "./components/UI/";
+import ScrollToTop from "./components/ScrollToTop";
 
 const Home = React.lazy(() => import("./pages/HomePage/Home"));
 const Services = React.lazy(() => import("./pages/Services/Services"));
@@ -16,6 +17,7 @@ function App() {
 		<Suspense fallback={<Spinner />}>
 			<Router>
 				<GlobalStyle />
+				<ScrollToTop />
 				<Navbar />
 				<Switch>
 					<Route path="/" exact component={Home} />
