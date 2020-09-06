@@ -8,7 +8,7 @@
 
 ### Screenshot
 
-- <img src="https://i.imgur.com/Pgd6iHX.png" alt="ultra-website"/>
+<img src="https://i.imgur.com/Pgd6iHX.png" alt="ultra-website"/>
 
 ### Tech-Stack
 
@@ -21,8 +21,7 @@
 
 ### Deploy
 
-- [Live Site](link)
-- [Live Server](link)
+**[Live Site](http://ultra-products.surge.sh/)**
 
 ### Plan Of Action
 
