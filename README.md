@@ -4,9 +4,11 @@
 
 ### Functions
 
+- Build Website Using Styled Components with Fully Responsive
+
 ### Screenshot
 
-- <img src="" alt=""/>
+- <img src="https://i.imgur.com/Pgd6iHX.png" alt="ultra-website"/>
 
 ### Tech-Stack
 
@@ -30,19 +32,19 @@
 4. Initial Navbar
 5. Creating GlobalStyles
 6. Adding Router
-7. Navbar layout & Styled
+7. Creating Navbar
 8. Creating Info Section
-9. Homepage layout & styled
-10. Spinner & NotFound component
+9. Creating Homepage
+10. Creating Spinner & NotFound
 11. Creating Footer
-
-### After this project
-
-I have improve my knowledge about
-I have understand about
-Next Steps:
+12. Creating Pricing
+13. Creating route of pages
+14. Adding Scroll to Top Effect
+15. Write Paper `README.md`
 
 ### Directory Structure
+
+- `[filename].elements.js` : styled for component
 
 ```
 .
@@ -51,9 +53,24 @@ Next Steps:
 ├── README.md
 ├── public
 └── src
+    ├── components
+        ├── Footer
+        ├── InfoSection
+        ├── Navbar
+        ├── Pricing
+        ├── UI
+            ├── NotFound
+            ├── Spinner
+            └── index.js
+        ├── ScrollToTop.jsx
+        └── index.jsx
+    ├── pages
+            ├── HomePage
+            ├── Products
+            ├── Services
+            └── SignUp
     ├── App.js
-    ├── App.css
-    ├── index.css
+    ├── globalStyles.js
     └── index.js
 ```
 
