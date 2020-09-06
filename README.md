@@ -12,6 +12,8 @@
 
 - React Hooks
 - styled components
+- react-router-dom
+- react-icons
 
 ### API Used
 
@@ -21,6 +23,18 @@
 - [Live Server](link)
 
 ### Plan Of Action
+
+1. Initial Project
+2. setup react, install tool
+3. creating Components & Pages Folder
+4. Initial Navbar
+5. Creating GlobalStyles
+6. Adding Router
+7. Navbar layout & Styled
+8. Creating Info Section
+9. Homepage layout & styled
+10. Spinner & NotFound component
+11. Creating Footer
 
 ### After this project
 
